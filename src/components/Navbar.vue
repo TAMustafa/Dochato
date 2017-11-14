@@ -36,6 +36,10 @@ export default {
    font-size: 2rem;
  }
 
+ .navbar {
+   background: #FDFDFD;
+ }
+
  .nav-link {
    border: #808080 solid .2rem;
    border-radius: .8rem;

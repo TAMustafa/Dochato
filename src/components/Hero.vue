@@ -22,7 +22,7 @@ export default {
   .jumbotron-fluid {
     background: url("../assets/hero-bg.png") no-repeat center;
     background-size: cover;
-    min-height: 76.4rem;
+    min-height: 76rem;
   }
 
   .display-2 {
@@ -40,6 +40,6 @@ export default {
     margin-top: 15rem;
     padding: 1rem 5rem;
     border-radius: 0.8rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 </style>

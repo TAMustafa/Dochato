@@ -31,8 +31,18 @@ export default {
 <style>
   html {
     font-size: 10px;
+    margin: 0;  
+    padding: 0;
+    border: 0;
   }
+
   body {
     font-family: 'Quicksand', sans-serif;
+  }
+
+  .sectionHeading {
+    color: #FF7575;
+    font-weight: bold;
+    font-size: 3.5rem;
   }
 </style>
