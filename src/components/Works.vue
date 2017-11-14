@@ -22,26 +22,24 @@
 export default {
   data () {
     return {
-
     }
   }
 }
 </script>
 
 <style scoped>
- .container-fluid {
-   padding-top: 5rem;
-   background: #FDFDFD;
-   };
-
-  .col-sm{
-    color: green;
+  .sectionHeading {
+    color: #FF7575;
+    font-weight: bold;
+    font-size: 3.5rem;
   }
 
+  .col-sm {
+    color: green;
+  }
   .row {
     padding-top: 8rem;
   }
-
   li {
     font-size: 2.4rem;
     color: #838383;
