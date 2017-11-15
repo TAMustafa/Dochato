@@ -42,9 +42,4 @@ export default {
   body {
     font-family: 'Quicksand', sans-serif;
   }
-
-  .container-fluid {
-   padding-top: 5rem;
-   background: #FDFDFD;
-   };
 </style>

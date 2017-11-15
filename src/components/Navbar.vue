@@ -1,12 +1,14 @@
 <template>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light">
+<div class="container fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">
       <img src="../assets/DCT.svg" width="82" height="71" alt="Dochato Logo">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
+    
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
@@ -36,18 +38,19 @@ export default {
    font-size: 2rem;
  }
 
- .navbar {
-   background: #FDFDFD;
+ .bg-dark {
+   opacity: .8;
+   border-radius: 2rem;
  }
 
  .nav-link {
-   border: #808080 solid .2rem;
+   border: white solid .2rem;
    border-radius: .8rem;
    margin: 1rem;
  }
 
 .navbar-nav .nav-item .nav-link {
-   color: #808080;
+   color: white;
    padding: 0 2rem 0 2rem;
  }
 </style>

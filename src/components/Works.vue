@@ -1,8 +1,8 @@
 <template>
-  <div class="container-fluid">
+  <div class="container">
   <h3 class="sectionHeading text-center">How It Works</h3>
    <div class="row">
-    <div class="col-sm left">
+    <div class="col-sm">
       <ol>
         <li><strong>Emma</strong> from Venezuella want to raise money to buy medecine and creates a fund raising 	campaign on dochato.com.</li>
         <li><strong>Emma</strong> writes a brief describtion and desired funding goal on dochato.com for donators to react.</li>
@@ -11,7 +11,7 @@
 	          <strong>Kirk</strong> and <strong>Justin</strong> feel good about their donation and in addtion received <strong>DCT</strong> Token which likely increase in value overtime.</li>
       </ol>
     </div>
-    <div class="col-sm right">
+    <div class="col-sm">
       <img src="../assets/TokenDistribution.png" alt="">
     </div>
    </div> <!-- End Row -->
@@ -31,18 +31,20 @@ export default {
   .sectionHeading {
     color: #FF7575;
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
   }
 
-  .col-sm {
-    color: green;
-  }
   .row {
-    padding-top: 8rem;
+    padding-top: 5rem;
   }
+
   li {
     font-size: 2.4rem;
     color: #838383;
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
+  }
+
+  img {
+    padding-top: 5rem;
   }
 </style>
