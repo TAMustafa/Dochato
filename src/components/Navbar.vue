@@ -1,5 +1,5 @@
 <template>
-<div class="container fixed-top">
+<div class="container-fluid fixed-top">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">
       <img src="../assets/DCT.svg" width="82" height="71" alt="Dochato Logo">
@@ -39,7 +39,7 @@ export default {
  }
 
  .bg-dark {
-   opacity: .8;
+   opacity: .5;
    border-radius: 2rem;
  }
 

@@ -1,9 +1,9 @@
 <template>
    <div> 
-    <app-navbar></app-navbar>
-    <app-hero></app-hero>
-    <app-works></app-works>
-    <app-campaigns></app-campaigns>
+    <app-navbar/>
+    <Hero/>
+    <Works/>
+    <Campaigns/>
   </div>
 </template>
 
@@ -18,9 +18,9 @@ export default {
 //  Register Components  //
   components: {
     'app-navbar': Navbar,
-    'app-hero': Hero,
-    'app-works': Works,
-    'app-campaigns': Campaigns
+     Hero,
+     Works,
+     Campaigns
   },
 
   data () {

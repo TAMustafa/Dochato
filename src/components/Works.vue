@@ -32,6 +32,7 @@ export default {
     color: #FF7575;
     font-weight: bold;
     font-size: 4.5rem;
+    text-shadow: 0.1rem 0.1rem #c14d4d;
   }
 
   .row {

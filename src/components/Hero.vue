@@ -17,19 +17,20 @@ export default {
 
 <style scoped>
   .jumbotron-fluid {
-    background: url("../assets/hero-bg.png") no-repeat center;
-    background-size: cover;
-    min-height: 40rem;
+    min-height: 50rem;
   }
 
   .display-2 {
-    padding-top: 10rem;
+    padding-top: 20rem;
     color: grey;
     font-weight: bold;
+    text-shadow: 0.1rem 0.1rem #bababa;
   }
 
   .display-4 {
     color: grey;
-    margin-top: 4rem;
+    margin-top: 2rem;
+    font-style: italic;
+    text-shadow: 0.1rem 0.1rem #bababa;
   }
 </style>
