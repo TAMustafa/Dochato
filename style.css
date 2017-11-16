@@ -13,15 +13,26 @@
     border-radius: 1rem;
   }
 
-  .display-2, .display-4{
+  #home-section {
+    margin-top: 7rem;
+  }
+
+  .display-2 {
+    color: #FF8181;
+    font-weight: bold;
+  }
+
+  .display-4 {
     color: grey;
+    margin-top: 3rem;
+    font-style: italic;
   }
 
   .sectionHeading {
     color: #FF8181;
     font-size: 3rem;
     font-weight: bold;
-    padding-top: 7rem;
+    margin-top: 7rem;
   }
 
   .left {
@@ -46,8 +57,7 @@
     background: grey;
     color: white;
     font-size: 1.5rem;
-    text-align: center;
+    margin-top: 10rem;
     padding: 2rem;
-
-  }
+}
   
