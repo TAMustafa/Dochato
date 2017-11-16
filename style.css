@@ -3,9 +3,51 @@
     margin: 0;
     padding: 0;
   }
+
+  body {
+    font-family: 'Quicksand', sans-serif;
+  }
   
   .navbar {
     opacity: 0.5;
     border-radius: 1rem;
+  }
+
+  .display-2, .display-4{
+    color: grey;
+  }
+
+  .sectionHeading {
+    color: #FF8181;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 7rem;
+  }
+
+  .left {
+    color: grey;
+    padding-top: 7rem;
+  }
+
+  .right {
+    padding-top: 7rem;
+  }
+
+  li {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
+
+  .card-deck {
+    padding-top: 7rem;
+  }
+
+  footer {
+    background: grey;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+
   }
   
