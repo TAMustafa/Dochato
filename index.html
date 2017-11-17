@@ -17,50 +17,69 @@
   <div id="app">
 
     <!-- Start NavBar -->
-    <div class="container fixed-top my-2">
-    <nav class="navbar navbar-expand-sm">
-        <a class="navbar-brand" href="index.html">
-          <img src="./assets/DCT.svg" width="82" height="71" alt="Dochato Logo">
-        </a>
+    <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/DCT.svg" width="82" height="71" alt="Dochato Logo">
+      </a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sign up</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link loginbtn" href="#">Login</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>  
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#campaigns">Campaigns</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">How</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link loginbtn" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <!-- END NavBar -->
 
     <!-- Start Home -->
-    <div class="full-page">
-    <div class="container text-center home">
-        <h1 class="display-2">Charity Revolutionised. <br>Earn reward Token by Donating</h1>
+    <section id="home">
+      <div class="container-fluid text-center home">
+        <h1 class="display-2">Charity Revolutionised.
+          <br>Earn reward Token by Donating</h1>
         <p class="display-4">No fees. No transaction cost. Powered by the STEEM Blockchain.</p>
-    </div>
+      </div>
+    </section>
     <!-- END Home -->
 
     <!-- Start Campaign Section -->
     <section id="campaigns">
       <div class="container campaign">
-        <h3 class="sectionHeading text-center my-4"> <u>Open Campaigns (Example)</u> </h3>
+        <h3 class="sectionHeading text-center my-4">
+          <u>Open Campaigns (Example)</u>
+        </h3>
         <div class="card-deck">
           <div class="card">
             <img class="card-img-top" src="..." alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Card title</h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a
-                little bit longer.</p>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is
+                a little bit longer.</p>
             </div>
             <div class="card-footer">
               <small class="text-muted">Last updated 3 mins ago</small>
@@ -90,99 +109,120 @@
         </div>
       </div>
     </section>
-      <!-- End Campaign Section -->
-    </div> <!-- End full-page -->
+    <!-- End Campaign Section -->
 
     <!-- Start Work Section -->
-    <section id="work-section">
-    <div class="container work">
-      <h3 class="sectionHeading text-center"> <u>How It Works</u> </h3>
-      <div class="row">
-        <div class="col-sm left">
-          <ol>
-            <li>
-              <strong>Emma</strong> from Venezuella want to raise money to buy medecine and creates a fund raising campaign on dochato.com.</li>
-            <li>
-              <strong>Emma</strong> writes a brief describtion and desired funding goal on dochato.com for donators to react.</li>
-            <li>
-              <strong>Kirk</strong> and
-              <strong>Justin</strong> like to help Emma and donate STEEM / SBD to her. As a reward dochato.com will send them DCT
-              Token to their STEEM powered multi wallet.</li>
-            <li>
-              <strong>Emma</strong> received 100% of the donations without any fees thanks to the
-              <strong>STEEM</strong> blockchain.
-              <strong>Kirk</strong> and
-              <strong>Justin</strong> feel good about their donation and in addtion received
-              <strong>DCT</strong> Token which likely increase in value overtime.</li>
-          </ol>
-        </div>
-        <div class="col-sm">
-          <img src="./assets/TokenDistribution.png" alt="">
+    <section id="work">
+      <div class="container work">
+        <h3 class="sectionHeading text-center">
+          <u>How It Works</u>
+        </h3>
+        <div class="row">
+          <div class="col-sm left">
+            <ol>
+              <li>
+                <strong>Emma</strong> from Venezuella want to raise money to buy medecine and creates a fund raising campaign on
+                dochato.com.</li>
+              <li>
+                <strong>Emma</strong> writes a brief describtion and desired funding goal on dochato.com for donators to react.</li>
+              <li>
+                <strong>Kirk</strong> and
+                <strong>Justin</strong> like to help Emma and donate STEEM / SBD to her. As a reward dochato.com will send them DCT
+                Token to their STEEM powered multi wallet.</li>
+              <li>
+                <strong>Emma</strong> received 100% of the donations without any fees thanks to the
+                <strong>STEEM</strong> blockchain.
+                <strong>Kirk</strong> and
+                <strong>Justin</strong> feel good about their donation and in addtion received
+                <strong>DCT</strong> Token which likely increase in value overtime.</li>
+            </ol>
+          </div>
+          <div class="col-sm">
+            <img src="./assets/TokenDistribution.png" alt="">
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
     <!-- End Work Section -->
-    
+
     <!-- Start FAQ Section -->
     <section id="faq">
-    <div class="container faq">
-    <h3 class="sectionHeading text-center"> <u>FAQ</u> </h3>
-    <div id="accordion" role="tablist">
-      <div class="card">
-        <div class="card-header" role="tab" id="headingOne">
-          <h5 class="mb-0">
-            <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Collapsible Group Item #1
-            </a>
-          </h5>
-        </div>
-    
-        <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      <div class="container faq">
+        <h3 class="sectionHeading text-center">
+          <u>FAQ</u>
+        </h3>
+        <div id="accordion" role="tablist">
+          <div class="card">
+            <div class="card-header" role="tab" id="headingOne">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Collapsible Group Item #1
+                </a>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" role="tab" id="headingTwo">
+              <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Collapsible Group Item #2
+                </a>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" role="tab" id="headingThree">
+              <h5 class="mb-0">
+                <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Collapsible Group Item #3
+                </a>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+                heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header" role="tab" id="headingTwo">
-          <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Collapsible Group Item #2
-            </a>
-          </h5>
-        </div>
-        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" role="tab" id="headingThree">
-          <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Collapsible Group Item #3
-            </a>
-          </h5>
-        </div>
-        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-          <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </section>
+    </section>
     <!-- End FAQ Section -->
 
     <!-- Start Footer Section -->
     <footer>
       <div class="container text-center py-4">
-        <span>Dochato.io 2017 <i class="fa fa-heart" aria-hidden="true"></i></span>
+        <span>Dochato.io 2017
+          <i class="fa fa-heart" aria-hidden="true"></i>
+        </span>
       </div>
-    </footer> 
+    </footer>
     <!-- End Footer Section -->
 
   </div>

@@ -7,11 +7,8 @@
   body {
     font-family: 'Quicksand', sans-serif;
   }
-  
+
   .navbar {
-    opacity: .9;
-    border-radius: 1rem;
-    background: rgb(202, 199, 199);
     opacity: .7;
   }
 
@@ -20,7 +17,6 @@
     background-image: url("/assets/hero-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 1rem;
   }
 
   .campaign, .work, .faq {
