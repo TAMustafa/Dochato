@@ -9,22 +9,29 @@
   }
   
   .navbar {
-    opacity: 0.5;
+    margin-top: 1rem;
+    opacity: .9;
     border-radius: 1rem;
   }
 
-  #home-section {
-    margin-top: 7rem;
+  .home {
+    margin-top: 8rem;
+    border: black solid 1rem;
+  }
+
+  .work {
+    margin-top: 5rem;
   }
 
   .display-2 {
+    padding-top: 5rem;
     color: #FF8181;
     font-weight: bold;
   }
 
   .display-4 {
     color: grey;
-    margin-top: 3rem;
+    padding-top: 3rem;
     font-style: italic;
   }
 
