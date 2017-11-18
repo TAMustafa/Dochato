@@ -18,7 +18,7 @@
   }
 
   #login, #signup {
-    border: solid grey .2rem;
+    border: solid #838383 .2rem;
     padding: 0 2rem;
     border-radius: .5rem;
     margin-right: 2rem;
@@ -26,38 +26,37 @@
 
   .home {
     min-height: 52rem;
-    background-image: url("/assets/hero-bg.png");
+    background-image: url("./assets/hero-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
 
-  .campaign, .how, .faq {
-    margin-top: 3rem;
-    border: solid black .2rem;
+  .campaign, .how, .faq{
+    margin-top:5rem;
   }
 
   .display-2 {
     color: white;
     font-weight: bold;
     padding-top: 20rem;
-    text-shadow: .2rem .2rem grey;
+    text-shadow: .2rem .2rem #838383;
   }
 
   .display-4 {
     color: white;
     font-style: italic;
     margin-top: 6rem;
-    text-shadow: .2rem .2rem grey;
+    text-shadow: .2rem .2rem #838383;
   }
 
   .sectionHeading {
     color: #FF8181;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bold;
   }
 
   .left {
-    color: grey;
+    color: #838383;
   }
 
   li {
@@ -65,8 +64,23 @@
     font-size: 2rem;
   }
 
+  .card-title {
+    color: #FF8181;
+    font-size: 2rem;
+  }
+
+  .card-deck {
+    margin-top: 5rem;
+  }
+
+  .card-text {
+    color: #838383;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
   footer {
-    background: grey;
+    background: #838383;
     color: white;
     font-size: 1.5rem;
     margin-top: 5rem;
