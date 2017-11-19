@@ -64,13 +64,13 @@
     font-size: 2rem;
   }
 
+  .card-deck {
+    margin-top: 5rem;
+  }
+
   .card-title {
     color: #FF8181;
     font-size: 2rem;
-  }
-
-  .card-deck, .row {
-    margin-top: 5rem;
   }
 
   .card-text {
@@ -82,6 +82,10 @@
   .card-footer {
     color: #838383;
     font-size: 2rem;
+  }
+
+  .howcontent {
+    margin-top: 7rem;
   }
 
   footer {
