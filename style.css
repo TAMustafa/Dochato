@@ -31,7 +31,7 @@
     background-repeat: no-repeat;
   }
 
-  .campaign, .how, .faq{
+  .campaign, .how, .faq, .howrow, .faqdiv, .card-deck {
     margin-top:5rem;
   }
 
@@ -50,7 +50,7 @@
   }
 
   .sectionHeading {
-    color: #FF8181;
+    color: #FF7575;
     font-size: 3.5rem;
     font-weight: bold;
   }
@@ -64,18 +64,14 @@
     font-size: 2rem;
   }
 
-  .card-deck {
-    margin-top: 5rem;
-  }
-
   .card-title {
-    color: #FF8181;
+    color: #FF7575;
     font-size: 2rem;
   }
 
   .card-text {
     color: #838383;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-bottom: 2rem;
   }
 
@@ -84,8 +80,15 @@
     font-size: 2rem;
   }
 
-  .howcontent {
-    margin-top: 7rem;
+  .collapse-link {
+    color: #FF7575;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .collapse-btext {
+    color: #838383;
+    font-size: 1.5rem;
   }
 
   footer {
