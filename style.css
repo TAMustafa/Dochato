@@ -31,7 +31,7 @@
     background-repeat: no-repeat;
   }
 
-  .campaign, .how, .faq, .howrow, .faqdiv, .card-deck {
+  .campaign, .how, .faq, .howrow, .faqdiv, .card-deck, .emailcontainer {
     margin-top:5rem;
   }
 
@@ -42,7 +42,7 @@
     text-shadow: .2rem .2rem #838383;
   }
 
-  .display-4 {
+  .d4cursive {
     color: white;
     font-style: italic;
     margin-top: 6rem;
