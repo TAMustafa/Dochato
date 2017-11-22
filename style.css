@@ -35,6 +35,10 @@
     margin-top:5rem;
   }
 
+  #imageflow { 
+    width: 90%;
+   }
+
   .display-2 {
     color: white;
     font-weight: bold;
