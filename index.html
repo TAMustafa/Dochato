@@ -14,303 +14,288 @@
 </head>
 
 <body>
-  <div id="app">
-
-    <!-- Start NavBar -->
-    <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html">
-        <img src="./assets/DCT.svg" width="82" height="71" alt="Dochato Logo">
-      </a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarNav">
+  <!--   NAVBAR  -->
+  <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">
+      <img src="./assets/DCT.svg" width="82" height="71" alt="Dochato Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pl-4" href="#campaigns">Campaigns</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pl-4" href="#how">How It Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pl-4" href="#faq">FAQ</a>
+        </li>
+      </ul>
+      <!-- DISABLE LOGIN & SIGN-UP UNTIL SITE COMPLETE
+      <form class="navbar-nav ml-auto">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home
-              <span class="sr-only">(current)</span>
-            </a>
+          <li class="nav-item">
+            <a class="nav-link" id="login" href="#">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link pl-4" href="#campaigns">Campaigns</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pl-4" href="#how">How It Works</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link pl-4" href="#faq">FAQ</a>
+            <a class="nav-link" id="signup" href="https://steemit.com/pick_account">Sign up</a>
           </li>
         </ul>
-        <!-- SignUp / Login Off until backend is ready
-        <form class="navbar-nav ml-auto">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" id="login" href="#">Login</a>
+      </form>
+    -->
+    </div>
+  </nav>
+  <!--  JOMBOTRON  -->
+  <section id="home">
+    <div class="container-fluid text-center home">
+      <h1 class="display-2">Charity Revolutionised.
+        <br>Earn reward Token by Donating</h1>
+      <p class="display-4 d4cursive">No fees. No transaction cost. Powered by the STEEM Blockchain.</p>
+    </div>
+  </section>
+  <!-- CAMPAIGN VIEW -->
+  <section id="campaigns">
+    <div class="container campaign">
+      <h3 class="sectionHeading text-center my-4">
+        Open Campaigns (Example)
+      </h3>
+      <div class="card-deck">
+        <!-- CARD1 -->
+        <div class="card">
+          <img class="card-img-top" src="./assets/Sample1.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">@naughty-by-nature</h4>
+            <p class="card-text">I want to organize a cleaning day for removing plastic waste out of the nearby Forest.</p>
+          </div>
+          <div class="text-center my-4">
+            <button type="button" class="btn btn-outline-danger btn-lg" disabled>65 STEEM to go!</button>
+          </div>
+          <div class="card-footer text-center">
+            <small class="text-muted">82% Funded</small>
+          </div>
+        </div>
+        <!-- CARD2 -->
+        <div class="card">
+          <img class="card-img-top" src="./assets/Sample4.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">@Build</h4>
+            <p class="card-text">Steem needed to support a housing project for people in need.</p>
+          </div>
+          <div class="text-center my-4">
+            <button type="button" class="btn btn-outline-danger btn-lg" disabled>345 STEEM to go!</button>
+          </div>
+          <div class="card-footer text-center">
+            <small class="text-muted">29% Funded</small>
+          </div>
+        </div>
+        <!-- CARD3 -->
+        <div class="card">
+          <img class="card-img-top" src="./assets/Sample2.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">@happy-me</h4>
+            <p class="card-text">I am building a water pump and need money to buy supplies.</p>
+          </div>
+          <div class="text-center my-4">
+            <button type="button" class="btn btn-outline-danger btn-lg" disabled>123 STEEM to go!</button>
+          </div>
+          <div class="card-footer text-center">
+            <small class="text-muted">73% Funded</small>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="card">
+          <img class="card-img-top" src="./assets/Sample3.png" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">@outdoorfun</h4>
+            <p class="card-text">We want to host a charity event for children in need.</p>
+          </div>
+          <div class="text-center my-4">
+            <button type="button" class="btn btn-outline-danger btn-lg" disabled>14 STEEM to go!</button>
+          </div>
+          <div class="card-footer text-center">
+            <small class="text-muted">95% Funded</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--   INFO   -->
+  <section id="how">
+    <div class="container how">
+      <h3 class="sectionHeading text-center">
+        How Dochato Works
+      </h3>
+      <div class="row align-items-center howrow">
+        <div class="col-md-6 left">
+          <ol>
+            <li>
+              <strong>Choose a Campaign</strong>
+              <br> Browse for a campaign you want to supprot.
             </li>
-            <li class="nav-item">
-              <a class="nav-link" id="signup" href="https://steemit.com/pick_account">Sign up</a>
-            </li>
-          </ul>
-        </form>
-        END SignUp OFF -->
+            <li>
+              <strong>Donate</strong>
+              <br> Send SBD or STEEM to the campaign.
+              <li>
+                <strong>Receive DCT Token</strong>
+                <br> For your donation you will receive DCT Token.
+                <li>
+                  <strong>Repeat!</strong>
+                  <br> Keep donating and accumulate DCT Token in return.
+          </ol>
+        </div>
+        <div class="col-md-6">
+          <img id="imageflow" src="./assets/DCT-flow.png" alt="Donation Flow">
+        </div>
       </div>
-    </nav>
-    <!-- END NavBar -->
+    </div>
+  </section>
+  <!--   FAQ   -->
+  <section id="faq">
+    <div class="container faq">
+      <h3 class="sectionHeading text-center">
+        FAQ
+      </h3>
+      <div id="accordion" class="faqdiv" role="tablist">
+        <div class="card">
+          <div class="card-header" role="tab" id="headingOne">
+            <h5 class="mb-0">
+              <a class="collapse-link" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What is Dochato.io?
+              </a>
+            </h5>
+          </div>
 
-    <!-- Start Home -->
-    <section id="home">
-      <div class="container-fluid text-center home">
-        <h1 class="display-2">Charity Revolutionised.
-          <br>Earn reward Token by Donating</h1>
-        <p class="display-4 d4cursive">No fees. No transaction cost. Powered by the STEEM Blockchain.</p>
-      </div>
-    </section>
-    <!-- END Home -->
-
-    <!-- Start Campaign Section -->
-    <section id="campaigns">
-      <div class="container campaign">
-        <h3 class="sectionHeading text-center my-4">
-          Open Campaigns (Example)
-        </h3>
-        <div class="card-deck">
-          <!-- Card 1 -->
-          <div class="card">
-            <img class="card-img-top" src="./assets/Sample1.png" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">@naughty-by-nature</h4>
-              <p class="card-text">I want to organize a cleaning day for removing plastic waste out of the nearby Forest.</p>
-            </div>
-            <div class="text-center my-4">
-              <button type="button" class="btn btn-outline-danger btn-lg" disabled>65 STEEM to go!</button>
-            </div>
-            <div class="card-footer text-center">
-              <small class="text-muted">82% Funded</small>
+          <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body collapse-btext">
+              <p>Dochato.io is an open source project which utilises the STEEM Blockchain for payments with Zero fees. The additional
+                benefit for using dochato.io is that donors receive DCT Token as reward for their donation. These Token might
+                increase in value overtime and act as incentive to continue donating. Everyone wins!</p>
             </div>
           </div>
-          <!-- Card 2 -->
-          <div class="card">
-            <img class="card-img-top" src="./assets/Sample4.png" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">@Build</h4>
-              <p class="card-text">Steem needed to support a housing project for people in need.</p>
-            </div>
-            <div class="text-center my-4">
-              <button type="button" class="btn btn-outline-danger btn-lg" disabled>345 STEEM to go!</button>
-            </div>
-            <div class="card-footer text-center">
-              <small class="text-muted">29% Funded</small>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingTwo">
+            <h5 class="mb-0">
+              <a class="collapsed collapse-link" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What is STEEM?
+              </a>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body collapse-btext">
+              <p>Steem is a next-generation blockchain, uniquely designed to run real-time applications with near instant, fee-free
+                transactions. Steem has been battled-tested over the last 18 months, already processing more transactions
+                per second than Bitcoin and Ethereum. </p>
             </div>
           </div>
-          <!-- Card 3 -->
-          <div class="card">
-            <img class="card-img-top" src="./assets/Sample2.png" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">@happy-me</h4>
-              <p class="card-text">I am building a water pump and need money to buy supplies.</p>
-            </div>
-            <div class="text-center my-4">
-              <button type="button" class="btn btn-outline-danger btn-lg" disabled>123 STEEM to go!</button>
-            </div>
-            <div class="card-footer text-center">
-              <small class="text-muted">73% Funded</small>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingThree">
+            <h5 class="mb-0">
+              <a class="collapsed collapse-link" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                No fees? Really!?
+              </a>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body collapse-btext">
+              <p>Yes! Because Dochato.io is using the STEEM blockchain there are no transaction fees. Dochato.io also doesn't
+                charge any fees since it is a non profit open source project.</p>
             </div>
           </div>
-          <!-- Card 4 -->
-          <div class="card">
-            <img class="card-img-top" src="./assets/Sample3.png" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">@outdoorfun</h4>
-              <p class="card-text">We want to host a charity event for children in need.</p>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingTwo">
+            <h5 class="mb-0">
+              <a class="collapsed collapse-link" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                How does Dochato.io make money?
+              </a>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body collapse-btext">
+              <p>Dochato.io is a non profit open source project charging no fees. When the DCT Token were created on the STEEM
+                blockchain, a certain amount was allocated to the founders as the only compensation. </p>
             </div>
-            <div class="text-center my-4">
-              <button type="button" class="btn btn-outline-danger btn-lg" disabled>14 STEEM to go!</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingTwo">
+            <h5 class="mb-0">
+              <a class="collapsed collapse-link" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+                How to start a campaign?
+              </a>
+            </h5>
+          </div>
+          <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body collapse-btext">
+              <p>Starting a charity campaign is simple, all you need is a STEEM account, a detailed description of your campaign
+                with supporting pictures and the desired funding amount.</p>
             </div>
-            <div class="card-footer text-center">
-              <small class="text-muted">95% Funded</small>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingTwo">
+            <h5 class="mb-0">
+              <a class="collapsed collapse-link" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">
+                Is Dochato.io open source?
+              </a>
+            </h5>
+          </div>
+          <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body collapse-btext">
+              <p>Yes! Dochato.io is a open source project. The GitHub repository is here (will follow)</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingTwo">
+            <h5 class="mb-0">
+              <a class="collapsed collapse-link" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseTwo">
+                How much DCT will I get for my donation?
+              </a>
+            </h5>
+          </div>
+          <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body collapse-btext">
+              <p>Detailed information on how many DCT a donator will receive will be provided once Dochato.io goes live.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" role="tab" id="headingTwo">
+            <h5 class="mb-0">
+              <a class="collapsed collapse-link" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseTwo">
+                When will Dochato.io be ready to use?
+              </a>
+            </h5>
+          </div>
+          <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body collapse-btext">
+              <p>We expect within Q1 2018 Dochato.io will be ready. Check the site regulary for updates as development continues.</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- End Campaign Section -->
-
-    <!-- Start How it Works Section -->
-    <section id="how">
-      <div class="container how">
-        <h3 class="sectionHeading text-center">
-          How Dochato Works
-        </h3>
-        <div class="row align-items-center howrow">
-          <div class="col-md-6 left">
-            <ol>
-              <li>
-                <strong>Choose a Campaign</strong><br>
-                Browse for a campaign you want to supprot.
-              </li>
-              <li>
-                <strong>Donate</strong><br>
-                Send SBD or STEEM to the campaign.
-              <li>
-                <strong>Receive DCT Token</strong><br>
-                For your donation you will receive DCT Token.
-              <li>
-                <strong>Repeat!</strong><br>
-                Keep donating and accumulate DCT Token in return.
-            </ol>
-          </div>
-          <div class="col-md-6">
-            <img id="imageflow" src="./assets/DCT-flow.png" alt="Donation Flow">
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Example Section -->
-
-    <!-- Start FAQ Section -->
-    <section id="faq">
-      <div class="container faq">
-        <h3 class="sectionHeading text-center">
-          FAQ
-        </h3>
-        <div id="accordion" class="faqdiv" role="tablist">
-          <div class="card">
-            <div class="card-header" role="tab" id="headingOne">
-              <h5 class="mb-0">
-                <a class="collapse-link" data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  What is Dochato.io?
-                </a>
-              </h5>
-            </div>
-
-            <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-              <div class="card-body collapse-btext">
-                <p>Dochato.io is an open source project which utilises the STEEM Blockchain for payments with Zero fees.
-                  The additional benefit for using dochato.io is that donors receive DCT Token as reward for their donation.
-                  These Token might increase in value overtime and act as incentive to continue donating. Everyone wins!</p>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" role="tab" id="headingTwo">
-              <h5 class="mb-0">
-                <a class="collapsed collapse-link" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  What is STEEM?
-                </a>
-              </h5>
-            </div>
-            <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-              <div class="card-body collapse-btext">
-                <p>Steem is a next-generation blockchain, uniquely designed to run real-time applications with near instant, fee-free transactions.
-                  Steem has been battled-tested over the last 18 months, already processing more transactions per second than Bitcoin and Ethereum. </p>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" role="tab" id="headingThree">
-              <h5 class="mb-0">
-                <a class="collapsed collapse-link" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  No fees? Really!?
-                </a>
-              </h5>
-            </div>
-            <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-              <div class="card-body collapse-btext">
-                <p>Yes! Because Dochato.io is using the STEEM blockchain there are no transaction fees. Dochato.io also doesn't charge any fees since it is a non profit open source project.</p>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" role="tab" id="headingTwo">
-              <h5 class="mb-0">
-                <a class="collapsed collapse-link" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
-                  How does Dochato.io make money?                  
-                </a>
-              </h5>
-            </div>
-            <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-              <div class="card-body collapse-btext">
-                <p>Dochato.io is a non profit open source project charging no fees. When the DCT Token were created on the STEEM blockchain, a certain amount was allocated to the founders as the only compensation. </p>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" role="tab" id="headingTwo">
-              <h5 class="mb-0">
-                <a class="collapsed collapse-link" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
-                  How to start a campaign?
-                </a>
-              </h5>
-            </div>
-            <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-              <div class="card-body collapse-btext">
-                <p>Starting a charity campaign is simple, all you need is a STEEM account, a detailed description of your campaign with supporting pictures and the desired funding amount.</p>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" role="tab" id="headingTwo">
-              <h5 class="mb-0">
-                <a class="collapsed collapse-link" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">
-                  Is Dochato.io open source?
-                </a>
-              </h5>
-            </div>
-            <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-              <div class="card-body collapse-btext">
-                <p>Yes! Dochato.io is a open source project. The GitHub repository is here (will follow)</p>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" role="tab" id="headingTwo">
-              <h5 class="mb-0">
-                <a class="collapsed collapse-link" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseTwo">
-                  How much DCT will I get for my donation?
-                </a>
-              </h5>
-            </div>
-            <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-              <div class="card-body collapse-btext">
-                <p>Detailed information on how many DCT a donator will receive will be provided once Dochato.io goes live.</p>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" role="tab" id="headingTwo">
-              <h5 class="mb-0">
-                <a class="collapsed collapse-link" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseTwo">
-                  When will Dochato.io be ready to use?
-                </a>
-              </h5>
-            </div>
-            <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
-              <div class="card-body collapse-btext">
-                <p>We expect within Q1 2018 Dochato.io will be ready. Check the site regulary for updates as development continues.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End FAQ Section -->
-
-    <!-- Start Footer Section -->
-    <footer>
-      <div class="container text-center py-4">
-        <span>Dochato.io 2017
-          <i class="fa fa-heart" aria-hidden="true"></i>
-        </span>
-      </div>
-    </footer>
-    <!-- End Footer Section -->
-
-  </div>
-  <!-- End VUE app -->
-
+    </div>
+  </section>
+  <!--  FOOTER  -->
+  <footer>
+    <div class="container text-center py-4">
+      <span>Dochato.io 2017
+        <i class="fa fa-heart" aria-hidden="true"></i>
+      </span>
+    </div>
+  </footer>
   <!--  JS sources  -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
